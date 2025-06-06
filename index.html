@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GetComparley - Smart Product Comparison Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GetComparley</h1>
+        <p>Deleting Buyer's Remorse</p>
+    </header>
+    <main>
+        <h2>Select up to 6 Stores or Trust Us to Compare for You</h2>
+        <div id="store-selection">
+            <select class="store-select" onchange="updateStoreSelection(this)">
+                <option value="">Select Store</option>
+            </select>
+            <select class="store-select" onchange="updateStoreSelection(this)">
+                <option value="">Select Store</option>
+            </select>
+            <select class="store-select" onchange="updateStoreSelection(this)">
+                <option value="">Select Store</option>
+            </select>
+            <select class="store-select" onchange="updateStoreSelection(this)">
+                <option value="">Select Store</option>
+            </select>
+            <select class="store-select" onchange="updateStoreSelection(this)">
+                <option value="">Select Store</option>
+            </select>
+            <select class="store-select" onchange="updateStoreSelection(this)">
+                <option value="">Select Store</option>
+            </select>
+        </div>
+        <p>or</p>
+        <button onclick="trustUsSearch()">Trust Us</button>
+        <h2>Categories</h2>
+        <div id="categories">
+            <a href="tools.html">Tools</a>
+            <a href="furniture.html">Furniture</a>
+            <a href="bedbath.html">Bed & Bath</a>
+            <a href="toys.html">Toys</a>
+            <a href="jewelry.html">Jewelry</a>
+            <a href="sports.html">Sports</a>
+            <a href="outdoors.html">Outdoors</a>
+            <a href="books.html">Books</a>
+            <a href="electronics.html">Electronics</a>
+            <a href="garden.html">Garden</a>
+            <a href="apparel.html">Apparel</a>
+            <a href="shoes.html">Shoes</a>
+            <a href="fragrance.html">Fragrance</a>
+            <a href="homeappliances.html">Home Appliances</a>
+            <a href="gifts.html">Gifts</a>
+            <a href="pets.html">Pets</a>
+            <a href="mens.html">Men’s</a>
+            <a href="computers.html">Computers</a>
+            <a href="games.html">Games</a>
+        </div>
+    </main>
+    <footer>
+        <p>More stores being added daily | Veteran Owned | FTC Disclosure: This site uses affiliate links | <a href="/privacy-policy">Privacy Policy</a></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
